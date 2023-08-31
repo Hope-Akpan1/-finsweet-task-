@@ -24,7 +24,7 @@ I will appreciate any review to improve.
 ### Links
 
 - Solution URL:(https://github.com/Hope-Akpan1/-finsweet-task-)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://hope-akpan1.github.io/-finsweet-task-/)
 
 ## My process
 I used my phone to code.
