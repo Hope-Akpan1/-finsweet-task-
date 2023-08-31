@@ -23,7 +23,7 @@ I will appreciate any review to improve.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Hope-Akpan1/-finsweet-task-/tree/main)
+- Solution URL:(https://github.com/Hope-Akpan1/-finsweet-task-)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
