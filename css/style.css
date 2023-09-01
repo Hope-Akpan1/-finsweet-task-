@@ -11,6 +11,7 @@ header {
   align-items: center;
   margin: auto;
   padding: 10px;
+  font-family: 'Manrope', sans-serif;
 }
 
 
@@ -24,7 +25,7 @@ nav {
 
 header nav div ul {
   display: flex;
-  column-gap: 15px;
+  column-gap: 20px;
   list-style: none;
   justify-content: center;
   align-items: center;
