@@ -31,10 +31,9 @@ I used my phone to code.
 
 ### Built with
 - SPCK for mobile is what I use to code.
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 
