@@ -27,7 +27,7 @@ I will appreciate any review to improve.
 - Live Site URL: (https://hope-akpan1.github.io/-finsweet-task-/)
 
 ## My process
-I used my phone to code.
+I use my phone to code.
 
 ### Built with
 - SPCK for mobile is what I use to code.
