@@ -34,7 +34,7 @@ nav {
 
 header nav div ul {
   display: flex;
-  column-gap: 25px;
+  column-gap: 30px;
   list-style: none;
   justify-content: center;
   align-items: center;
@@ -115,7 +115,7 @@ main .container .right {
 h1 {
   font-family: 'Manrope', sans-serif;
   font-weight: 800;
-  font-size: 55px;
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
