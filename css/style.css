@@ -13,7 +13,6 @@ header {
   font-family: 'Manrope', sans-serif;
   position: fixed;
   right: 10%;
-  background-color: #fff;
   z-index: 50;
 }
 
@@ -21,14 +20,14 @@ header {
 nav {
   display: flex;
   align-items: center;
-  column-gap: 10px;
+  column-gap: 15px;
 
 }
 
 
 header nav div ul {
   display: flex;
-  column-gap: 20px;
+  column-gap: 25px;
   list-style: none;
   justify-content: center;
   align-items: center;
@@ -64,7 +63,7 @@ div.contact {
   justify-content: center;
   align-items: center;
   font-family: 'Manrope', sans-serif;
-  font-weight: 600;
+  font-weight: 800;
 
 }
 
@@ -109,7 +108,7 @@ main .container .right {
 h1 {
   font-family: 'Manrope', sans-serif;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 60px;
   margin-bottom: 10px;
 }
 
@@ -133,15 +132,15 @@ main .container .content {
 
 
 button {
-  height: 43px;
-  width: 115px;
+  height: 50px;
+  width: 125px;
   background-color: #EF6530;
   border: 0 solid;
   border-radius: 5px;
   margin: 10px 0;
   padding: 0 2px;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -202,7 +201,7 @@ svg {
 }
 
 #what-we-offer-section .content h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .what-we-offer-card {
@@ -214,8 +213,8 @@ svg {
 }
 
 #what-we-offer-section .content .what-we-offer-card .card {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 
 }
 
@@ -340,7 +339,7 @@ div.learn {
 }
 
 .left-car-card h1 {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .left-car-card .btn {
