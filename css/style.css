@@ -9,7 +9,7 @@ header {
   background-color: #fff;
   z-index: 50;
   position: fixed;
-}
+} 
 
 header h1 {
   font-family: 'Manrope', sans-serif;
@@ -229,15 +229,15 @@ svg {
 }
 
 #what-we-offer-section .content .what-we-offer-card .card {
-  height: 225px;
-  width: 225px;
+  height: 220px;
+  width: 230px;
 
 }
 
 
 .feature {
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 28px;
   column-gap: 5px;
   }
 
@@ -313,7 +313,7 @@ div#card-with-bg.card {
 }
 
 div.learn {
-  margin: 30px 0 0 360px;
+ /* margin: 30px 0 0 360px;*/
 }
 
 
