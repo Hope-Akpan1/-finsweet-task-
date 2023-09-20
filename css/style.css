@@ -122,7 +122,7 @@ main .container .right {
 h1 {
   font-family: 'Manrope', sans-serif;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 10px;
 }
 
@@ -147,14 +147,14 @@ main .container .content {
 
 button {
   height: 50px;
-  width: 125px;
+  width: 135px;
   background-color: #EF6530;
   border: 0 solid;
   border-radius: 5px;
-  margin: 10px 0;
+  margin: 15px 0;
   padding: 0 2px;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
