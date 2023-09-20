@@ -14,7 +14,7 @@ header {
 header h1 {
   font-family: 'Manrope', sans-serif;
   font-weight: 800;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 0; 
 }
 
@@ -146,7 +146,7 @@ main .container .content {
 
 
 button {
-  height: 50px;
+  height: 45px;
   width: 135px;
   background-color: #EF6530;
   border: 0 solid;
