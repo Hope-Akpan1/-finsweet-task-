@@ -106,7 +106,7 @@ div.contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: lemonchiffon; */
+ 
 }
 
 
@@ -185,7 +185,7 @@ button:hover {
 
 p {
   margin-top:5px;
-  color: #1E1B1B;
+  color: #423C3C;
 }
 
 .work-time p {
