@@ -237,9 +237,9 @@ svg {
 
 .feature {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   column-gap: 10px;
-}
+  }
 
 /* form */
 input {
