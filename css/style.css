@@ -122,7 +122,7 @@ main .container .right {
 h1 {
   font-family: 'Manrope', sans-serif;
   font-weight: 800;
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
@@ -237,8 +237,8 @@ svg {
 
 .feature {
   display: flex;
-  margin-bottom: 20px;
-  column-gap: 10px;
+  margin-bottom: 25px;
+  column-gap: 5px;
   }
 
 /* form */
