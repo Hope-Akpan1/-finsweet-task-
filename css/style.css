@@ -284,6 +284,11 @@ a {
   display: flex;
   gap: 10px;
 }
+img.arrow.second-arrow{
+  display :flex;
+  align-items: right;
+  justify-content: right;
+}
 
 .lines {
   rotate: 90deg;
