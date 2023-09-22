@@ -395,3 +395,149 @@ justify-content: center;
   justify-content: space-between;
   align-items: center ;
 }
+
+
+  /* for mobile */
+
+@media screen and (max-width: 425px) {
+  header h1 {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+
+  nav div.Assistance {
+    font-size: 10px;
+    padding: 5px 0;
+    width: 110px;
+    gap: 5px;
+  }
+
+  nav div.Assistance img {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  header #container {
+    padding: 10px 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  div#container {
+    margin: 0;
+    width: 100%
+  }
+
+  nav {
+    flex-direction: column;
+
+  }
+
+  header nav div ul {
+    column-gap: 10px;
+    border: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    font-size: 12px;
+  }
+
+  main.parent-flex div.container {
+    flex-direction: column-reverse;
+  }
+
+  .container {
+    width: 80%;
+    padding: 0 10px;
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  div.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.left div.content h1 {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  img.arrow.second-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    font-size: 10px;
+    width: 80%;
+  }
+
+  .quote-left .feature p {
+    width: 80%;
+  }
+
+  .learn div.link {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  div.quote-left h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  div.quote-left div.feature {
+    margin-bottom: 0;
+  }
+
+  div.quote-left div.link {
+    font-size: 10px;
+    margin: 0 0 5px 5px;
+
+  }
+
+  div.quote-left div.link img.arrow {
+    width: 15px;
+  }
+
+  div.quote-right h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  input {
+    height: 40px;
+    width: 300px;
+  }
+
+div.right div.quote-right  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 730px) {}
