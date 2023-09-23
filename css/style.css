@@ -538,6 +538,101 @@ div.right div.quote-right  {
     justify-content: center;
     align-items: center;
   }
+    #what-we-offer-section .content .what-we-offer-card .card {
+    height: 100px;
+    width: 120px;
+
+  }
+
+  #what-we-offer-section .content .what-we-offer-card h4 {
+    font-size: 10px;
+  }
+
+  #what-we-offer-section .content .what-we-offer-card h1 {
+    font-size: 25px;
+    padding: 30px 0;
+  }
+
+  #what-we-offer-section .content .what-we-offer-card img {
+    width: 15px;
+  }
+
+
+  #get-a-quote-section.parent-flex div.container div.left h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  div.container div.content div.learn div.link {
+    font-size: 10px;
+    position: absolute;
+    left: 140px;
+  }
+
+  #get-in-touch div.second-row div.container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+  }
+
+  #get-in-touch div.second-row div.container h1 {
+    font-size: 15px;
+  }
+
+  #get-in-touch div.second-row div.container p {
+    font-size: 5px;
+    width: 68px;
+  }
+
+  #get-in-touch .first-row .left-car {
+
+    height: 70%;
+  }
+
+  .first-row .left-car .left-car-card {
+    width: 70%;
+    height: 100%;
+    background-color: #FF6433;
+  }
+
+  .left-car-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 20px;
+
+  }
+
+  .left-car-card h1 {
+    font-size: 12px;
+
+  }
+
+  .left-car-card .btn {
+    background-color: #262525;
+    width: 75px;
+    height: 30px;
+    font-size: 8px;
+  }
+
+  #get-in-touch div.first-row {
+    height: 70%;
+  }
+
+  #get-in-touch .first-row .right-car {
+    height: 70%;
+  }
+
+
+  div#get-in-touch div.second-row {
+    height: 15vh;
+  }
+div#get-in-touch {
+  height :50vh;
+  }
 }
 
 @media screen and (max-width: 730px) {}
