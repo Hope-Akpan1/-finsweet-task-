@@ -9,13 +9,13 @@ header {
   background-color: #fff;
   z-index: 50;
   position: fixed;
-} 
+}
 
 header h1 {
   font-family: 'Manrope', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 header #container {
@@ -47,7 +47,7 @@ header nav div ul {
   align-items: center;
   border-right: 1px solid gray;
   padding: 5px 20px 5px 0;
-
+  font-family: 'Manrope', sans-serif;
 }
 
 
@@ -106,7 +106,7 @@ div.contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
+
 }
 
 
@@ -122,7 +122,7 @@ main .container .right {
 h1 {
   font-family: 'Manrope', sans-serif;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 10px;
 }
 
@@ -184,8 +184,8 @@ button:hover {
 }
 
 p {
-  margin-top:5px;
-  color: #423C3C;
+  margin-top: 5px;
+  color: #939191;
 }
 
 .work-time p {
@@ -197,40 +197,12 @@ svg {
 }
 
 
+
+
 /* Car servicing section */
 
 #car-servicing-section {
   background-color: #E2E6E9;
-
-}
-
-#what-we-offer-section {
-  background-color: #F2F2F2;
-}
-
-
-/* what we offer section */
-
-#what-we-offer-section .content {
-  text-align: center;
-  width: 100%;
-}
-
-#what-we-offer-section .content h1 {
-  font-size: 2rem;
-}
-
-.what-we-offer-card {
-
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  justify-content: center;
-}
-
-#what-we-offer-section .content .what-we-offer-card .card {
-  height: 220px;
-  width: 230px;
 
 }
 
@@ -239,7 +211,7 @@ svg {
   display: flex;
   margin-bottom: 28px;
   column-gap: 5px;
-  }
+}
 
 /* form */
 input {
@@ -258,7 +230,7 @@ input {
   width: 322px;
   height: 56px;
   opacity: 0.6px;
-  color: #1E1B1B;
+  color: #939191;
 
 }
 
@@ -280,12 +252,18 @@ a {
   color: #1E1B1B;
 }
 
+header a {
+  font-family: 'Manrope', sans-serif;
+  margin-left: 0;
+}
+
 .link {
   display: flex;
   gap: 10px;
 }
-img.arrow.second-arrow{
-  display :flex;
+
+img.arrow.second-arrow {
+  display: flex;
   align-items: right;
   justify-content: right;
 }
@@ -296,6 +274,37 @@ img.arrow.second-arrow{
   color: #FF6433;
 
 }
+
+
+/* what we offer section */
+
+#what-we-offer-section {
+  background-color: #F2F2F2;
+}
+
+
+#what-we-offer-section .content {
+  text-align: center;
+  width: 100%;
+}
+
+#what-we-offer-section .content h1 {
+  font-size: 2rem;
+}
+
+.what-we-offer-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+#what-we-offer-section .content .what-we-offer-card .card {
+  height: 240px;
+  width: 240px;
+
+}
+
 
 div.card {
   display: flex;
@@ -312,13 +321,25 @@ div#card-with-bg.card {
   color: #fff;
 }
 
-div.learn {
- /* margin: 30px 0 0 360px;*/
+
+section#what-we-offer-section.parent-flex {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.learn div.link {
+  position: absolute;
+  left: 515px;
+  bottom: 40px;
+  width: 48%;
+  justify-content: right;
+  align-items: right;
 }
 
 
-
-/* footer section */
+/* get in touch section */
 
 #get-in-touch {
   background-color: #F2F2F2;
@@ -339,7 +360,6 @@ div.learn {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* background-color: #06824D; */
   display: flex;
   justify-content: right;
 }
@@ -374,15 +394,14 @@ div.learn {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* background-color: #1C2AC0; */
 }
 
 #get-in-touch .second-row {
   width: 100%;
   height: 25%;
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .second-row .container h1 {
@@ -393,64 +412,320 @@ justify-content: center;
   width: 80%;
   display: flex;
   justify-content: space-between;
-  align-items: center ;
+  align-items: center;
 }
 
 
-  /* for mobile */
+/* Brands-we-Serve section */
+
+#Brands-we-Serve {
+  background-color: #FAFAFA;
+  height: 50vh;
+  width: 100%;
+}
+
+#Brands-we-Serve .first-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#Brands-we-Serve .second-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Brands-we-Serve .both-lines {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-flex .brand-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+
+/* Our-customers-service section */
+
+#Our-customers-service {
+  background-color: #F2F2F2;
+  height: 75vh;
+  width: 100%;
+}
+
+#Our-customers-service .our-customers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+#Our-customers-service .our-customers h1 {
+  text-align: center;
+  padding: 0 50px 10px;
+}
+
+.our-customers .the-customers {
+  display: flex;
+  gap: 40px;
+  height: 250px;
+  margin-top: 25px;
+}
+
+.the-customers .first-customer,
+.the-customers .second-customer {
+  background-color: #FFFFFF;
+  padding: 40px;
+}
+
+
+.first-customer-profile,
+.second-customer-profile {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+h6 span {
+  color: #939191;
+  ;
+}
+
+.lines-and-arrow {
+  flex-direction: column;
+}
+
+.slider-and-lines {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+div.arrow-lines .hidden {
+  visibility: hidden;
+}
+
+
+
+/* Frequently-Asked-Questions section */
+
+#Frequently-Asked-Questions {
+  background-color: #E2E6E9;
+  height: 90vh;
+  width: 100%;
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.questions .q1 {
+  width: 70%;
+  height: 130px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.questions .q2,
+.q3,
+.q4,
+.q5 {
+  width: 70%;
+  height: 65px;
+  background-color: #FFFFFF;
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-and-box {
+  display: flex;
+  gap: 20px;
+}
+
+.p-and-box .box {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.p-and-box p {
+  padding-right: 20px;
+}
+
+.questions .box {
+  background-color: #EF6530;
+  color: #FFFFFF;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q1 .head-and-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* footer section */
+
+#top-footer {
+  background-color: #1E1B1B;
+  height: 47vh;
+  width: 100%;
+  opacity: 0.98;
+  color: #fff;
+}
+
+.social-icons {
+  margin: 20px 10px 0 0;
+}
+
+.social-icons .bi {
+  margin-right: 10px;
+}
+
+.footer-right div {
+  margin-top: 25px;
+}
+
+
+
+#bottom-footer {
+  background-color: #1E1B1B;
+  height: 13vh;
+  width: 100%;
+  margin-top: -4px;
+}
+
+
+.bottom-footer footer #container {
+  width: 75vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  margin: auto;
+  color: #fff;
+}
+
+footer h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+footer nav div ul {
+  display: flex;
+  column-gap: 15px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px 5px 0;
+  margin-right: 100px;
+
+}
+
+.bottom-footer #container {
+  justify-content: space-evenly;
+}
+
+.Copyright {
+  color: #939191;
+  font-size: 10px;
+}
+
+.bottom-footer a {
+  color: #fff;
+  margin: 0;
+}
+
+
+
+/* for mobile */
 
 @media screen and (max-width: 425px) {
+
+  /* Header */
+
+  header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+  }
+  
+  header div#container{
+    width: 100%;
+  }
+
   header h1 {
-    font-size: 20px;
-    padding: 5px 0;
-  }
-
-  nav div.Assistance {
     font-size: 10px;
-    padding: 5px 0;
-    width: 110px;
-    gap: 5px;
-  }
-
-  nav div.Assistance img {
-    width: 15px;
-    height: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
   }
 
   header #container {
-    padding: 10px 0;
+    width: 100%;
+    border-right: none;
+    background-color: #fff;
+    font-size: 10px;
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
   }
 
-  div#container {
-    margin: 0;
-    width: 100%
-  }
 
   nav {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
     flex-direction: column;
-
   }
 
   header nav div ul {
     column-gap: 10px;
-    border: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    border-right: none;
+    padding: 5px 20px 5px 0;
+    width: 100%;
   }
 
-  nav ul li {
-    font-size: 12px;
+  div.Assistance img {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
   }
+
+
+  .Assistance {
+    display: flex;
+    gap: 10px;
+    width: 130px;
+  }
+
+
+  /* main */
 
   main.parent-flex div.container {
     flex-direction: column-reverse;
@@ -467,17 +742,23 @@ justify-content: center;
     width: 100%;
   }
 
+
   div.left {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
+
   div.left div.content h1 {
-    font-size: 25px;
+    font-size: 20px;
     width: 100%;
     text-align: center;
     padding-bottom: 15px;
+  }
+
+  div.left span {
+    font-size: 10px;
   }
 
   img.arrow.second-arrow {
@@ -489,22 +770,40 @@ justify-content: center;
   p {
     font-size: 10px;
     width: 80%;
+    height: 30px;
   }
 
   .quote-left .feature p {
     width: 80%;
+    height: 50px;
+  }
+
+  button {
+    height: 35px;
+    width: 125px;
+    margin: 15px 0 20px;
+    padding: 0 2px;
+    color: #fff;
+    font-size: 12px;
+
+  }
+
+  section#what-we-offer-section.parent-flex {
+    position: relative;
   }
 
   .learn div.link {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+    position: absolute;
+    bottom: 50px;
+    width: 48%;
+    justify-content: right;
   }
+
 
   div.quote-left h1 {
     font-size: 25px;
     text-align: center;
+    margin-top: 20px;
   }
 
   div.quote-left div.feature {
@@ -530,26 +829,38 @@ justify-content: center;
   input {
     height: 40px;
     width: 300px;
+
   }
 
-div.right div.quote-right  {
+  div.right div.quote-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-    #what-we-offer-section .content .what-we-offer-card .card {
-    height: 100px;
-    width: 120px;
 
+  }
+
+  section#car-servicing-section.parent-flex {
+    overflow: hidden;
+    height: auto;
+  }
+
+
+  #what-we-offer-section .content .what-we-offer-card .card {
+    height: 100px;
+    width: 130px;
   }
 
   #what-we-offer-section .content .what-we-offer-card h4 {
     font-size: 10px;
   }
 
-  #what-we-offer-section .content .what-we-offer-card h1 {
+  #what-we-offer-section div.content h1 {
     font-size: 25px;
+  }
+
+  .what-we-offer-card h1 {
+    font-size: 18px;
     padding: 30px 0;
   }
 
@@ -570,29 +881,35 @@ div.right div.quote-right  {
   }
 
   #get-in-touch div.second-row div.container {
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 5px;
+    row-gap: 10px;
     width: 100%;
+    height: 150px;
+  }
+
+  div.second-row div.container {
+    margin-top: 35px;
   }
 
   #get-in-touch div.second-row div.container h1 {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   #get-in-touch div.second-row div.container p {
-    font-size: 5px;
-    width: 68px;
+    font-size: 7px;
+    width: 100px;
   }
 
   #get-in-touch .first-row .left-car {
-
-    height: 70%;
+    height: 200px;
+    width: 100%;
   }
 
   .first-row .left-car .left-car-card {
-    width: 70%;
+    width: 45%;
     height: 100%;
     background-color: #FF6433;
   }
@@ -619,20 +936,943 @@ div.right div.quote-right  {
   }
 
   #get-in-touch div.first-row {
-    height: 70%;
+    height: 50%;
+  }
+
+  #get-in-touch div.first-row h1 {
+    margin: 15px 0 0;
   }
 
   #get-in-touch .first-row .right-car {
-    height: 70%;
+    height: 200px;
+    width: 100%;
+
   }
 
+  #get-in-touch .first-row {
+    flex-direction: column;
+  }
 
   div#get-in-touch div.second-row {
     height: 15vh;
   }
-div#get-in-touch {
-  height :50vh;
+
+  div#get-in-touch {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
+
+
+  /* Brands-we-Serve */
+  #Brands-we-Serve {
+    height: 65vh;
+  }
+
+  #Brands-we-Serve h1 {
+    font-size: 25px;
+  }
+
+  #Brands-we-Serve .first-line {
+    flex-direction: column;
+    position: absolute;
+    left: 10px;
+  }
+
+  .logo-png {
+    height: 70px;
+    width: 132px;
+  }
+
+
+  #Brands-we-Serve .second-line {
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+  }
+
+  #Brands-we-Serve .both-lines {
+    position: relative;
+  }
+
+  .brand-container h1 {}
+
+  .parent-flex .brand-container {
+    height: 80%;
+    width: 100%;
+  }
+
+
+  /* Our-customers-service section */
+
+  #Our-customers-service .our-customers h1 {
+    padding: 0;
+    font-size: 22px;
+  }
+
+  .our-customers .the-customers {
+    gap: 15px;
+    height: 270px;
+    flex-direction: column;
+  }
+
+  .the-customers .first-customer,
+  .the-customers .second-customer {
+    padding: 10px;
+  }
+
+
+  .first-customer-profile,
+  .second-customer-profile {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .first-customer p,
+  .second-customer p {
+    padding: 0;
+    font-size: 12px;
+    width: 260px;
+    height: 80px;
+  }
+
+  .first-customer-profile img,
+  .second-customer-profile img {
+    width: 40px;
+    height: 40px;
+  }
+
+  h6 span {
+    color: #939191;
+  }
+
+  .lines-and-arrow {
+    flex-direction: column;
+  }
+
+  .slider-and-lines {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .slider-and-lines img {
+    width: 50px;
+  }
+
+
+  /* Frequently-Asked-Questions section */
+
+  #Frequently-Asked-Questions {
+    height: 80vh;
+    width: 100%;
+  }
+
+  #Frequently-Asked-Questions h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .questions .q1 {
+    width: 95%;
+    height: 100px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .questions .q2,
+  .q3,
+  .q4,
+  .q5 {
+    width: 95%;
+    height: 45px;
+    font-size: 9px;
+  }
+
+  .questions .q1 p {
+    font-size: 7px;
+    padding: 0;
+  }
+
+
+  /* footer section */
+
+  #top-footer {
+    background-color: #1E1B1B;
+    height: 47vh;
+    width: 100%;
+    opacity: 0.98;
+    color: #fff;
+  }
+
+  .social-icons {
+    margin: 0 10px 0 0;
+  }
+
+  .social-icons .bi {
+    margin-right: 10px;
+  }
+
+  .footer-right div {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #top-footer p {
+    font-size: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #top-footer h3 {
+    font-size: 10px;
+  }
+
+
+
+  #bottom-footer {
+    height: 10vh;
+  }
+
+
+  .bottom-footer footer #container {
+    width: 75vw;
+    justify-content: space-between;
+    padding: 10px 0;
+
+  }
+
+  footer h1 {
+    font-size: 6px;
+  }
+
+  footer nav div ul {
+    column-gap: 5px;
+    padding: 5px 10px 5px 0;
+    margin-right: 0;
+    font-size: 5px;
+    width: 145px;
+  }
+
+  .bottom-footer #container {
+    justify-content: space-evenly;
+  }
+  
+  
+#bottom-footer #container nav{
+  display: flex;
+  flex-direction: row;
 }
 
-@media screen and (max-width: 730px) {}
+  .Copyright {
+    font-size: 5px;
+    padding: 0;
+  }
+
+
+}
+
+
+
+
+
+/* for tablets */
+
+@media only screen and (max-width: 769px) and (min-width: 426px) {
+  
+  /* Header */
+
+  header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+  }
+  
+  header div#container{
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 10px;
+  }
+
+  header #container {
+    width: 100%;
+    border-right: none;
+    background-color: #fff;
+    font-size: 10px;
+    flex-direction: column;
+  }
+
+
+  nav {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    flex-direction: column;
+  }
+
+  header nav div ul {
+    column-gap: 10px;
+    border-right: none;
+    padding: 5px 20px 5px 0;
+    width: 100%;
+  }
+
+  div.Assistance img {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+  }
+
+
+  .Assistance {
+    display: flex;
+    gap: 10px;
+    width: 130px;
+  }
+
+
+  /* main */
+
+  main.parent-flex div.container {
+    flex-direction: column-reverse;
+  }
+
+  .container {
+    width: 80%;
+    padding: 0 10px;
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+
+  div.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  div.left div.content h1 {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  div.left span {
+    font-size: 10px;
+  }
+
+  img.arrow.second-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    font-size: 10px;
+    width: 80%;
+    height: 30px;
+  }
+
+  .quote-left .feature p {
+    width: 80%;
+    height: 50px;
+  }
+
+  button {
+    height: 35px;
+    width: 125px;
+    margin: 15px 0 20px;
+    padding: 0 2px;
+    color: #fff;
+    font-size: 12px;
+
+  }
+
+  section#what-we-offer-section.parent-flex {
+    position: relative;
+  }
+
+  .learn div.link {
+    position: absolute;
+    bottom: 50px;
+    width: 48%;
+    justify-content: right;
+  }
+
+
+  div.quote-left h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  div.quote-left div.feature {
+    margin-bottom: 0;
+  }
+
+  div.quote-left div.link {
+    font-size: 10px;
+    margin: 0 0 5px 5px;
+
+  }
+
+  div.quote-left div.link img.arrow {
+    width: 15px;
+  }
+
+  div.quote-right h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  input {
+    height: 40px;
+    width: 300px;
+
+  }
+
+  div.right div.quote-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  section#car-servicing-section.parent-flex {
+    overflow: hidden;
+    height: auto;
+  }
+
+
+  #what-we-offer-section .content .what-we-offer-card .card {
+    height: 100px;
+    width: 130px;
+  }
+
+  #what-we-offer-section .content .what-we-offer-card h4 {
+    font-size: 10px;
+  }
+
+  #what-we-offer-section div.content h1 {
+    font-size: 25px;
+  }
+
+  .what-we-offer-card h1 {
+    font-size: 18px;
+    padding: 30px 0;
+  }
+
+  #what-we-offer-section .content .what-we-offer-card img {
+    width: 15px;
+  }
+
+
+  #get-a-quote-section.parent-flex div.container div.left h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  div.container div.content div.learn div.link {
+    font-size: 10px;
+    position: absolute;
+    left: 140px;
+  }
+
+  #get-in-touch div.second-row div.container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 10px;
+    width: 100%;
+    height: 150px;
+  }
+
+  div.second-row div.container {
+    margin-top: 35px;
+  }
+
+  #get-in-touch div.second-row div.container h1 {
+    font-size: 18px;
+  }
+
+  #get-in-touch div.second-row div.container p {
+    font-size: 7px;
+    width: 100px;
+  }
+
+  #get-in-touch .first-row .left-car {
+    height: 200px;
+    width: 100%;
+  }
+
+  .first-row .left-car .left-car-card {
+    width: 45%;
+    height: 100%;
+    background-color: #FF6433;
+  }
+
+  .left-car-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 20px;
+
+  }
+
+  .left-car-card h1 {
+    font-size: 12px;
+
+  }
+
+  .left-car-card .btn {
+    background-color: #262525;
+    width: 75px;
+    height: 30px;
+    font-size: 8px;
+  }
+
+  #get-in-touch div.first-row {
+    height: 50%;
+  }
+
+  #get-in-touch div.first-row h1 {
+    margin: 15px 0 0;
+  }
+
+  #get-in-touch .first-row .right-car {
+    height: 200px;
+    width: 100%;
+
+  }
+
+  #get-in-touch .first-row {
+    flex-direction: column;
+  }
+
+  div#get-in-touch div.second-row {
+    height: 15vh;
+  }
+
+  div#get-in-touch {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  /* Brands-we-Serve */
+  #Brands-we-Serve {
+    height: 65vh;
+  }
+
+  #Brands-we-Serve h1 {
+    font-size: 25px;
+  }
+
+  #Brands-we-Serve .first-line {
+    flex-direction: column;
+    position: absolute;
+    left: 10px;
+  }
+
+  .logo-png {
+    height: 70px;
+    width: 132px;
+  }
+
+
+  #Brands-we-Serve .second-line {
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+  }
+
+  #Brands-we-Serve .both-lines {
+    position: relative;
+  }
+
+  .brand-container h1 {}
+
+  .parent-flex .brand-container {
+    height: 80%;
+    width: 100%;
+  }
+
+
+  /* Our-customers-service section */
+
+  #Our-customers-service .our-customers h1 {
+    padding: 0;
+    font-size: 22px;
+  }
+
+  .our-customers .the-customers {
+    gap: 15px;
+    height: 270px;
+    flex-direction: column;
+  }
+
+  .the-customers .first-customer,
+  .the-customers .second-customer {
+    padding: 10px;
+  }
+
+
+  .first-customer-profile,
+  .second-customer-profile {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .first-customer p,
+  .second-customer p {
+    padding: 0;
+    font-size: 12px;
+    width: 260px;
+    height: 80px;
+  }
+
+  .first-customer-profile img,
+  .second-customer-profile img {
+    width: 40px;
+    height: 40px;
+  }
+
+  h6 span {
+    color: #939191;
+  }
+
+  .lines-and-arrow {
+    flex-direction: column;
+  }
+
+  .slider-and-lines {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .slider-and-lines img {
+    width: 50px;
+  }
+
+
+  /* Frequently-Asked-Questions section */
+
+  #Frequently-Asked-Questions {
+    height: 80vh;
+    width: 100%;
+  }
+
+  #Frequently-Asked-Questions h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .questions .q1 {
+    width: 95%;
+    height: 100px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .questions .q2,
+  .q3,
+  .q4,
+  .q5 {
+    width: 95%;
+    height: 45px;
+    font-size: 9px;
+  }
+
+  .questions .q1 p {
+    font-size: 7px;
+    padding: 0;
+  }
+
+
+  /* footer section */
+
+  #top-footer {
+    background-color: #1E1B1B;
+    height: 47vh;
+    width: 100%;
+    opacity: 0.98;
+    color: #fff;
+  }
+
+  .social-icons {
+    margin: 0 10px 0 0;
+  }
+
+  .social-icons .bi {
+    margin-right: 10px;
+  }
+
+  .footer-right div {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #top-footer p {
+    font-size: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #top-footer h3 {
+    font-size: 10px;
+  }
+
+
+
+  #bottom-footer {
+    height: 10vh;
+  }
+
+
+  .bottom-footer footer #container {
+    width: 75vw;
+    justify-content: space-between;
+    padding: 10px 0;
+
+  }
+
+  footer h1 {
+    font-size: 6px;
+  }
+
+  footer nav div ul {
+    column-gap: 5px;
+    padding: 5px 10px 5px 0;
+    margin-right: 0;
+    font-size: 5px;
+    width: 145px;
+  }
+
+  .bottom-footer #container {
+    justify-content: space-evenly;
+  }
+  
+  
+#bottom-footer #container nav{
+  display: flex;
+  flex-direction: row;
+}
+
+  .Copyright {
+    font-size: 5px;
+    padding: 0;
+  }
+
+
+}
+}
+
+
+
+
+/* for bigger tablets  */
+
+@media only screen and (max-width: 834px) and (min-width: 775px) {
+  #what-we-offer-section .content .what-we-offer-card .card {
+    height: 110px;
+    width: 130px;
+  }
+
+  #what-we-offer-section .content .what-we-offer-card img {
+    width: 15px;
+  }
+
+  #what-we-offer-section .content .what-we-offer-card h4 {
+    font-size: 12px;
+  }
+
+  .logo-png {
+    height: 70px;
+    width: 130px;
+  }
+
+  /* global styling  */
+  .parent-flex {
+    height: 55vh;
+  }
+
+  section#what-we-offer-section {
+    height: 35vh;
+
+  }
+
+  .learn div.link {
+    justify-content: left;
+
+  }
+
+  .our-customers .the-customers {
+    gap: 30px;
+    height: 300px;
+  }
+
+  footer h1 {
+    font-size: 14px;
+  }
+
+  footer nav div ul {
+    column-gap: 10px;
+    padding: 5px 10px 5px 0;
+    margin-right: 0;
+    font-size: 10px;
+  }
+
+
+
+
+  .Copyright {
+    font-size: 10px;
+  }
+
+
+}
+
+
+
+/* for medium screens */
+
+@media only screen and (max-width: 1024px) and (min-width: 770px) {
+
+  h1 {
+    font-size: 23px;
+  }
+
+  header h1 {
+    font-size: 14px;
+  }
+
+  header nav {
+    font-size: 12px;
+  }
+
+  header nav img {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+  }
+
+  header nav div ul {
+    display: flex;
+    column-gap: 15px;
+  }
+
+  .feature p {
+    padding-right: 50px;
+    font-size: 15px;
+  }
+
+  #what-we-offer-section .content .what-we-offer-card .card {
+    height: 130px;
+    width: 160px;
+  }
+
+  #what-we-offer-section .content .what-we-offer-card img {
+    width: 20px;
+  }
+
+  #what-we-offer-section .content .what-we-offer-card h4 {
+    font-size: 14px;
+  }
+
+  section#what-we-offer-section.parent-flex {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+  }
+
+  .learn div.link {
+    left: 450px;
+    bottom: 20px;
+    width: 38%;
+  }
+
+  /* global styling  */
+  .parent-flex {
+    height: 75vh;
+  }
+
+  /* global styling */
+  .container {
+    height: 70%;
+    width: 80%;
+  }
+
+  div.brand-container {
+    width: 80%;
+  }
+
+  .logo-png {
+    height: 70px;
+    width: 155px;
+  }
+
+  .questions .q1 {
+    width: 70%;
+    height: 160px;
+  }
+
+  footer nav div ul {
+    column-gap: 10px;
+    padding: 5px 20px 5px 0;
+    margin-right: 25px;
+
+  }
+
+
+}
+
+
+
+
