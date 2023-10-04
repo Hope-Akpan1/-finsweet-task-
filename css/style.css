@@ -1709,11 +1709,16 @@ footer nav div ul {
     padding: 0;
   }
 
-
-}
 }
 
+/* for ipads of this :in-range */
+@media only screen and (max-width: 795px) and (min-width: 600px) {
+  
 
+  #Brands-we-Serve .both-lines {
+width: 50%;
+}
+}
 
 
 /* for bigger tablets  */
@@ -1747,9 +1752,13 @@ footer nav div ul {
 
   }
 
-  .learn div.link {
+  .learn.div.link {
     justify-content: left;
+  }
 
+
+  .the-customers.first-customer p{
+    font-size: 4px;
   }
 
   .our-customers .the-customers {
@@ -1767,9 +1776,6 @@ footer nav div ul {
     margin-right: 0;
     font-size: 10px;
   }
-
-
-
 
   .Copyright {
     font-size: 10px;
